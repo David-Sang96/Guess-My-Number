@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>If You are A Genius , <span>Guess The Correct Number</span></h1>
+      <h2 class="alert">
+        Click first "Generate The Random Number" to start playng the game
+      </h2>
+      <div class="title">
+        <p>Correct Number is : <span class="correct">0</span></p>
+        <div class="guess">Guess Time : 10</div>
+      </div>
+      <div class="remind"></div>
+      <input type="text" id="text" placeholder="only number" disabled />
+      <button class="random">Generate The Random Number</button>
+      <button id="submit">Submit Your Number</button><br />
+      <button class="restart">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
